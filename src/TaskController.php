@@ -16,6 +16,9 @@ class TaskController extends Controller
 
     public function create()
     {
+        $Arrr = array('A' => 'Ashok');
+        echo "<pre>";
+        print_r($Arrr);
         $tasks = Task::all();
         $submit = 'Add';
         return view('wisdmlabs.todolist.list', compact('tasks', 'submit'));
