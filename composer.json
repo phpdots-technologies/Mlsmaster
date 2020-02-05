@@ -1,0 +1,22 @@
+{
+    "name": "phpdots/mlsmaster",
+    "description": "data search with elasticsearch package",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "troydavisson/phrets": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHPDots",
+            "email": "admin@phpdots.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phpdots\\Mlsmaster\\": "src/"
+        }
+    }
+}
+
